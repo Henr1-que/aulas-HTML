@@ -3,4 +3,56 @@
    padding: 0;
    box-sizing: border-box;
    font-family: "Inter", sans-serif;
+   text-decoration: none;
+ }
+ body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+ }
+
+ .app {
+   display: flex;
+   flex-direction: column;
+   gap: 72px;
+
+   & .perfil {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    text-align: center;
+    align-items: center;
+
+     & img {
+       width: 250px;
+       height: 250px;
+       border-radius:100% ;
+       object-fit: cover;
+     }
+   
+    }
+   & .btns {
+     display: flex;
+     flex-direction: column;
+     gap: 17px;
+
+ 
+     & a {
+       background-color: blue;
+       padding: 20px;
+       border-radius: 100px;
+       color: #fff;
+       text-align: center;
+       font-size: 24px;
+       border: 1px solid black;
+       box-shadow: 4px 4px 0 black;
+     }
+
+
+     & a:hover {
+        transform: translateX(4px) translateY(4px);
+        box-shadow: none;
+     }
+   }
  }
