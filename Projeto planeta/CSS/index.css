@@ -1,0 +1,43 @@
+*{
+margin: 4px;
+padding: 4px;
+background-color: rgb(184, 241, 255)
+}
+
+{
+Display: flex;
+justify-content: space-between;
+align-items: center; 
+background-color: white;
+padding: 20px 100px;
+
+& .navbar,  .btns
+display: flex ;
+gap: 20px; 
+align-items: center;
+}
+
+{
+& .btns a:last-child
+border: 1px solid rgb(145, 238, 218);
+padding: 6px 12px;
+border-radius: 4px;
+}
+
+img {
+float: right;
+  margin-left: 15px; /* Adiciona espaço entre a imagem e o texto */
+}
+
+h5 {
+  background-color: #0aa5c0; 
+  color: rgb(4, 39, 71);
+  padding: 5px 5px; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  transition: background 0.3s;
+ 
+}
+
+
