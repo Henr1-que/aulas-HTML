@@ -5,7 +5,6 @@
   text-decoration: none;
   font-family: "Lexend", sans-serif;
 }
-
 .header-section {
     height: 100vh;
     background-image: url("../img/banner.svg");
@@ -45,11 +44,85 @@
 
         }
     }
-
     & #hero{
     margin-top: 114px;
     margin-left:95px;
     color: #fff;
+    
+    & h1{
+      font-size: 48px;
+      margin-bottom: 26px;
+    }
+
+    & p{
+      width: 417px;
+      font-size: 24px;
+    }
+
+    & a{
+      display: inline-block;
+      background-color:#3B44F6 ;
+      padding: 16px 32px;
+      border-radius: 8px;
+      color: #efefef;
+      margin-top: 64px;
+    }
+
     }
 }
+
+
+main{
+  & #why-bigode-store{
+     max-width: 915px;
+     margin: auto;
+     padding: 70px 0px;
+     display: flex;
+     gap: 60px;
+     flex-direction: column;
+     align-items: center;
+     text-align: center;
+
+     & .title{
+       & p{
+        font-size: 18px;
+        color: #323232;
+        width: 473px;
+       }
+
+
+       & h2{
+         margin-bottom: 16px;
+         font-size: 36px;
+         color: #181818;
+       }
+
+
+      }
+      & .cards{
+        display: flex;
+        justify-content: space-between;
+
+        & .card{
+          width: 250px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          gap: 21px;
+
+          & img{
+            width: 94px;
+          }
+
+         & p{
+           width: 202px;
+         }
+
+
+        }
+      }
+     }
+  }
+
 
